@@ -35,13 +35,8 @@ public class TestCase1 extends ProjectSpecificWrappers {
 		.clickCheckout ()
 		.clickCompleteOrder ()
 		.quitBrowser();
-		Thread.sleep(10000);
-		/*.clickBookStore()
-		.enterSearchText(searchText)
-		.clickSearchResult(searchText)
-		.getTitle();
-		new BookResultPage(driver,test).clickLogOut();*/
-
+		
+		
 	}
 
 }

@@ -21,7 +21,7 @@ public class LoginPage extends ProjectSpecificWrappers {
 	public LoginPage enterPassword() {
 		enterById("inputPassword", password);
 		return this;
-
+//made changes
 	}
 
 	public LoginPage notARobot() {
